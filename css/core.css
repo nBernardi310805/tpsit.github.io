@@ -1,0 +1,14 @@
+h1 {
+    color:crimson;
+}
+
+h1:hover {
+    zoom:150%;
+}
+a {
+    color:green;
+    border-radius: 7px;
+}
+* {
+    background-color: midnightblue;
+}
