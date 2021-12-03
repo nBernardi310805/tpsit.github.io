@@ -6,9 +6,12 @@ h1:hover {
     zoom:150%;
 }
 a {
-    color:green;
+    color:greenyellow;
     border-radius: 7px;
 }
 * {
     background-color: midnightblue;
+}
+p {
+    color:white;
 }
