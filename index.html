@@ -19,6 +19,15 @@
         
     </style>
     
+    <script>
+        function tpsit(){
+            document.getElementById('tit').innerText='(La materia dei siti web)'
+        }
+        function tp(){
+            document.getElementById('tit').innerText='Sito TPSIT'
+        }
+    </script>
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-22L0NZ73VZ"></script>
 <script>
@@ -33,7 +42,7 @@
 
 <body>
     <header>
-        <h1>Sito TPSIT</h1>
+        <h1 onmouseenter="tpsit()" onmouseleave="tp()" id="tit">Sito TPSIT</h1>
         <h2>by Nicola Bernardi</h2>
     </header>
     
